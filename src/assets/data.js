@@ -1,0 +1,42 @@
+export const data = [
+    {
+      question: "What is the University of Guelph's mascot?",
+      option1: "Dragon",
+      option2: "Centaur",
+      option3: "Aggie",
+      option4: "Gryphon",
+      ans: 4,
+    },
+    {
+      question: "What is the name of the cannon that is painted by students?",
+      option1: "Old Jeremiah",
+      option2: "Painty McPaintface",
+      option3: "George II",
+      option4: "Duke of Wellington",
+      ans: 1,
+    },
+    {
+      question: "Who was the School of Computer Science building at UoG named after?",
+      option1: "Joseph Reynolds",
+      option2: "Ryan Reynolds",
+      option3: "Joshua Reynolds",
+      option4: "Greg Klotz",
+      ans: 1,
+    },
+    {
+      question: "How many brains does an octopus have?",
+      option1: "9",
+      option2: "2",
+      option3: "1",
+      option4: "16",
+      ans: 1,
+    },
+    {
+      question: "How many bones does a shark have?",
+      option1: "42",
+      option2: "5",
+      option3: "10",
+      option4: "0",
+      ans: 4,
+    },
+  ];

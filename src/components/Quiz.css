@@ -1,0 +1,85 @@
+.container{
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.container hr{
+    height: 2px;
+    border: none;
+    background: #707070;
+
+}
+
+.container h1{
+    font-size: 36px;
+    font-weight: 500;
+    align-self: center;
+    font-weight: bold;
+    font-family: 'bebas neue';
+}
+
+.container h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container button {
+    border-radius: 8px;
+    box-shadow: 4px 4px 17px #434880;
+    color: #ffffff;
+    font-size: 20px;
+    background: #192ab0;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+  }
+  
+.container button:hover {
+    background: #4c6fbf;
+}
+
+.container .index{
+    align-self: flex-end;
+    font-size: 12px;
+}
+
+.container .correct{
+    background: #dffff2;
+    border-color: #00d397;
+}
+
+.container .wrong{
+    background: #FFEFEB;
+    border-color: #FF4A4A;
+}
+
+.container .correct-text{
+    text-align: center;
+    color: #00d397;
+    font-weight: bold;
+}
+
+.container .wrong-text{
+    text-align: center;
+    color: #FF4A4A;
+    font-weight: bold;
+}
